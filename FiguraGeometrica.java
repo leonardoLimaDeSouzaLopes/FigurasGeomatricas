@@ -1,4 +1,4 @@
-public class FiguraGeometrica {
+public abstract class FiguraGeometrica {
 	
 	private double base;
 	private double altura;
@@ -29,7 +29,6 @@ public class FiguraGeometrica {
 
 
 
-	public void calcularArea() {
-	}
+	public abstract void calcularArea();
 	
 }

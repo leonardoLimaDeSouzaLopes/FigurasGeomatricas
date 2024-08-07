@@ -18,7 +18,7 @@ public class Circulo extends FiguraGeometrica{
 
 	public void calcularArea() {
 			
-		System.out.println("A area do circulo e: " + this.getRaio() * this.getRaio() * Math.PI);
+		System.out.println("A area do circulo e: " + (long) (this.getRaio() * this.getRaio() * Math.PI));
 	}
 	
 	public Circulo(double raioParametro) {

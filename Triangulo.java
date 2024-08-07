@@ -31,7 +31,7 @@ public class Triangulo extends FiguraGeometrica{
 
 	public void calcularArea() {
 		
-			System.out.println("A area do triangulo e: " + ( this.getBase() * this.getAltura() ) / 2 ) ;
+			System.out.println("A area do triangulo e: " + (long) (this.getBase() * this.getAltura() / 2));
 	}
 	
 	public boolean eUmTriangulo() {
